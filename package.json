@@ -2,6 +2,7 @@
   "name": "open-espora",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/user-event": "^12.8.3",
