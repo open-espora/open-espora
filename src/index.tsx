@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './styles/index.scss';
-import Home from './Pages/Home/Home';
+import Home from './pages/home/home';
 
 import reportWebVitals from './reportWebVitals';
 

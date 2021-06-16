@@ -1,7 +1,7 @@
 import React from 'react';
-import './Home.scss';
+import './home.scss';
 
-import App from '../../components/App/App';
+import App from '../../components/app/app';
 
 function Home() {
   return (
