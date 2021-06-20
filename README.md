@@ -23,11 +23,17 @@ Install dependencies
   npm install
 ```
 
+```bash
+  yarn
+```
+
 Start the server
 
 ```bash
   npm run start
 ```
+
+
 
 Start the development server
 
@@ -35,6 +41,9 @@ Start the development server
   npm run dev
 ```
 
+```bash
+  yarn dev
+```
 
 ## Contributing
 
