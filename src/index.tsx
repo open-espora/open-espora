@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './styles/index.scss';
-import Root from './pages/Root/Root';
+import { Root } from './pages/Root/Root';
 
 import reportWebVitals from './reportWebVitals';
 
