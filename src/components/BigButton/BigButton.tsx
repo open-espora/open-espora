@@ -6,12 +6,11 @@ interface BigButtonProps {
   children: React.ReactNode|React.ReactNodeArray;
 }
 
-function BigButton(props: BigButtonProps) {
+export const BigButton = (props: BigButtonProps) => {
+  const { children } = props;
   return (
-    <button className="bigbutton text-center mt-16 mb-8 md:mt-24 text-white max-h-12">
-      {props.children}
+    <button className="big-button text-center mt-16 mb-8 md:mt-24 text-white max-h-12">
+      {children}
     </button>
   );
 }
-
-export default BigButton;

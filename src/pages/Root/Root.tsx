@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import './Root.style.scss';
 
-import Home from '../Home/Home';
+import { Home } from '../Home/Home';
 
-function Root() {
+export const Root = () => {
   return (
     <Router>
       <main className="Root">
@@ -14,5 +14,3 @@ function Root() {
     </Router>
   );
 }
-
-export default Root;

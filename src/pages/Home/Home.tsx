@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import homeImage from '../../assets/homeImage.svg';
 import './Home.style.scss';
 
-import HomeHeader from '../../components/HomeHeader/HomeHeader';
-import BigButton from '../../components/BigButton/BigButton';
+import { HomeHeader } from '../../components/HomeHeader/HomeHeader';
+import { BigButton } from '../../components/BigButton/BigButton';
 
-function Home() {
+export const Home = () => {
   return (
       <main className="home h-screen">
         <HomeHeader />
@@ -23,5 +23,3 @@ function Home() {
       </main>
   );
 }
-
-export default Home;
